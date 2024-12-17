@@ -1,0 +1,13 @@
+{
+  "$schema": "https://specflow.org/specflow-config.json",
+
+  "drivers": {
+    "defaultBrowser": "chrome",
+    "webDriverTimeout": 30
+  },
+
+  "DefaultUrl": "https://www.eltiempo.es/",
+  "stepAssemblies": [
+    {"assembly": "Allure.SpecFlowPlugin"}
+  ]
+}
